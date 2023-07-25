@@ -1,0 +1,47 @@
+@import '../../variables';
+
+#navs {
+  ul {
+    list-style: none;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-top: 0;
+
+    li {
+      a {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 3rem;
+        background: rgba($bg-color,0.5);
+        text-shadow: 0 0 5px $bg-color;
+        border-color: rgba($bg-color,0.5);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: all 200ms ease-in-out;
+        margin: 0;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25rem;
+      }
+
+      &:hover,
+      &:focus {
+        a {
+          background-clip: padding-box;
+          background: rgba($bg-color, .98);
+          text-shadow: 0 0 5px $bg-color;
+          border-color: rgba($bg-color,0.5);
+          text-decoration: underline rgba(white, 0.75);
+          text-underline-offset: 7.5px;
+          text-decoration-thickness: 5px;
+        }
+      }
+    }
+  }
+}

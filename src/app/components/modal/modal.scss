@@ -1,0 +1,30 @@
+@import '../../variables';
+
+#modal-overlay {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparentize(white, 0.85);
+}
+
+#modal-wrapper {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+  padding: 2rem;
+  background: $bg-color;
+  border-radius: 20px;
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

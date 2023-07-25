@@ -1,0 +1,21 @@
+@import '../../variables';
+
+header {
+  flex: 1 0 auto;
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: $bg-color;
+  mix-blend-mode: multiply;
+  height: auto;
+  border-bottom-left-radius: $header-border-radius;
+  border-bottom-right-radius: $header-border-radius;
+}

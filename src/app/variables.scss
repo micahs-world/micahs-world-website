@@ -1,0 +1,19 @@
+//$bg-color: #0E0E0E;
+$bg-color: #121212;
+$nav-bg-color: rgba($bg-color, 0.85);
+$header-height: 140px;
+$footer-height: 160px;
+$header-footer-height: calc($header-height + $footer-height);
+$header-border-radius: 10px;
+$footer-border-radius: 10px;
+$article-border-width: 15px;
+
+:export {
+  bgColor: $bg-color;
+  navBgColor: $nav-bg-color;
+  headerHeight: $header-height;
+  footerHeight: $footer-height;
+  headerFooterHeight: $header-footer-height;
+  headerBorderRadius: $header-border-radius;
+  footerBorderRadius: $footer-border-radius;
+}

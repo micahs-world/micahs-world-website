@@ -1,0 +1,10 @@
+@import '../../variables';
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: $bg-color;
+  max-height: $footer-height;
+  border-top-left-radius: $footer-border-radius;
+  border-top-right-radius: $footer-border-radius;
+}
