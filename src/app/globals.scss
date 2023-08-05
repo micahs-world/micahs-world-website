@@ -1,6 +1,8 @@
 @import 'variables';
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Andika', Verdana, sans-serif;
   margin: auto;
   min-height: 100vh;
@@ -105,4 +107,8 @@ article.primary {
   border-radius: 25px;
   background-clip: padding-box;
   min-height: calc(calc(100vh - $header-footer-height) + $article-border-width);
+}
+
+main {
+  flex: 1;
 }
